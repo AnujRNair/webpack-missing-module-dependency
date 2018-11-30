@@ -1,0 +1,37 @@
+{
+  "name": "webpack-missing-module-dependency",
+  "version": "1.0.0",
+  "description": "Test repo to reproduce module dependency issue when recompiling using webpack dev server",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "npx webpack-dev-server --config=webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnujRNair/webpack-missing-module-dependency.git"
+  },
+  "keywords": [
+    "webpack",
+    "missing",
+    "module",
+    "dependency",
+    "async",
+    "shared"
+  ],
+  "author": "Anuj Nair",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnujRNair/webpack-missing-module-dependency/issues"
+  },
+  "homepage": "https://github.com/AnujRNair/webpack-missing-module-dependency#readme",
+  "dependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "file-loader": "^2.0.0",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "devDependencies": {}
+}
