@@ -1,5 +1,10 @@
 # Webpack Missing Module Dependency
 
+## Fixed
+* Reported: https://github.com/webpack/webpack/issues/8455
+* PR merged: https://github.com/webpack/webpack/pull/8457
+* NPM release: https://github.com/webpack/webpack/releases/tag/v4.27.0
+
 ## Background
 When the following criteria are met, it seems that webpack misses a module dependency on an async chunk to a shared bundle.
 
